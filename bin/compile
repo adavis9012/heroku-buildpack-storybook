@@ -17,4 +17,6 @@ echo '{ "root": "build/" }' > static.json
 
 export PATH="$BUILD_DIR/.heroku/node/bin:$BUILD_DIR/.heroku/yarn/bin":$PATH
 
+npm install
+
 npm run build-storybook
